@@ -1,0 +1,32 @@
+%YAML:1.0
+---
+depth_context_threshold : 200
+#  {100,254} - parameter to control sensitivity to obstacles in the scene - higher values for higher sensitivity 
+# 
+depth_context_sigma : 0
+#  {0,25} - parameter to enable obstacle detection in highly textured floors - higher values suitable for highly textured floors
+# 
+stereo_threshold : 25
+#  {0,25} - parameter that controls the distance(cm) for close-obstacle sensitivity - a value of 25 implies close-obstacles between 0cm and 25cm will be accurately detected 
+# 
+odoa_start_hfov : 0
+#  start of horizontal FoV of interest in degrees 
+# 
+odoa_hfov_range : 360
+#  {52,140,220,280,360} - horizontal FoV range in degrees
+# 
+odoa_start_vfov : 50
+#  start of the vertical FoV of interest (in percentage rows) - this parameter only applies to the 'close obstacles
+# 
+odoa_end_vfov : 90
+#  end of the vertical FoV of interest (in percentage rows) - this parameter only applies to the 'close obstacles
+# 
+camera_height : 25
+#  height of the base of the camera base from the floor plane
+# 
+depth_context_refinement : 2
+#  {0,4} - parameter to balance the sensitivity between obstacles and noise - a value of 0 means this refinement is off - higher values (3,4) increase obstacle sensitivity and lower values (1,2) reduce noise.
+# 
+depth_context_temporal : 5
+#  {0,10} - parameter to control the temporal context of the laserscan (in number of frames
+# 
