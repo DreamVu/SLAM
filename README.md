@@ -43,7 +43,7 @@ The data files are delivered along with the purchase of the PAL-Mini camera. In 
       sudo ./setup.sh
       
 ## Documentation 
-For rest of the evaluation of the ODOA software, please read the [Evaluation Manual](https://docs.google.com/document/d/e/2PACX-1vT0KGrxAZAFmHouoZ9KqdyIKfMxm8D2guiUmzQXzTD3PZFb8kEgWr40M-RvbwUUU-mBssBwHZWi3ZqH/pub)
+For rest of the evaluation of the SLAM software, please read the [Evaluation Manual](https://docs.google.com/document/d/e/2PACX-1vT0KGrxAZAFmHouoZ9KqdyIKfMxm8D2guiUmzQXzTD3PZFb8kEgWr40M-RvbwUUU-mBssBwHZWi3ZqH/pub)
 
 ## Support 
 If you need help or more informations check our [Help Center](https://support.dreamvu.com/portal/en/home) or join our [Community](https://support.dreamvu.com/portal/en/community/dreamvu-inc).
