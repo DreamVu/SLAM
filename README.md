@@ -1,18 +1,21 @@
-# Simultaneous Localization & Mapping (SLAM)
-SLAM solution with DreamVu [PAL-Mini](https://dreamvu.com/pal-mini/)
+# Simulatenous Localization & Mapping (SLAM)
+SLAM with DreamVu [PAL](https://dreamvu.com/pal-usb/)
 
 Please follow the instructions given below on any of the Nvidia Jetson embedded boards with Jetpack 4.4.1 to install the software.
 
 ## Step 1. Clone the repository 
 -     sudo apt-get install git-lfs
-      git clone https://github.com/DreamVu/SLAM.git
-      cd SLAM
+      git clone https://github.com/DreamVu/Obstacle-Detection.git
+      cd Obstacle-Detection
       git lfs pull
       
 ## Step 2. Installing Dependencies 
 Confirm the following dependencies. These are must have to proceed further
 
 - ### Jetpack 4.4.1
+- ### Install Git-lfs before cloning this repo. 
+-     sudo apt-get install git-lfs
+
 
 - ### CUDA enabled OpenCV 4.4.0 and OpenCV Contrib 4.4.0 libraries. 
   Follow these steps to install the required OpenCV dependencies. 
@@ -22,7 +25,7 @@ Confirm the following dependencies. These are must have to proceed further
 
 - ### Python 3.6 libraries (pytorch, torchvision, numpy, PIL, etc.)
 
-## Step 3. Installing SLAM 
+## Step 3. Installing SLAM
       cd installations
       chmod +x ./*.sh
       sudo ./install.sh arg1 arg2
@@ -37,13 +40,13 @@ Confirm the following dependencies. These are must have to proceed further
 Once complete please reboot the system.
 
 ## Step 4. Installing Camera Data File 
-The data files are delivered along with the purchase of the PAL-Mini camera. In case you have not received them, please request for the files by filling out a [form](https://support.dreamvu.com/portal/en/newticket)
+The data files are delivered along with the purchase of the PAL camera. In case you have not received them, please request for the files by filling out a [form](https://support.dreamvu.com/portal/en/newticket)
 
       chmod +x setup.sh
       sudo ./setup.sh
       
 ## Documentation 
-For rest of the evaluation of the ODOA software, please read the [Evaluation Manual](https://docs.google.com/document/d/e/2PACX-1vT0KGrxAZAFmHouoZ9KqdyIKfMxm8D2guiUmzQXzTD3PZFb8kEgWr40M-RvbwUUU-mBssBwHZWi3ZqH/pub)
+For rest of the evaluation of the SLAM software, please read the [Evaluation Manual](https://docs.google.com/document/d/e/2PACX-1vTkVh8fdDUcFPjEnIlgoYYGmfGXxehH17zJg5YPMLCTwIfoWStRAKG8NxfuL8-X9wbzz_BRc3cCwRXa/pub)
 
 ## Support 
 If you need help or more informations check our [Help Center](https://support.dreamvu.com/portal/en/home) or join our [Community](https://support.dreamvu.com/portal/en/community/dreamvu-inc).
