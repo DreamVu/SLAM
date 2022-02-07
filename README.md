@@ -5,7 +5,7 @@ Please follow the instructions given below on any of the Nvidia Jetson embedded 
 
 ## Step 1. Clone the repository 
 -     sudo apt-get install git-lfs
-      git clone https://github.com/DreamVu/Obstacle-Detection.git
+      git clone -b PAL --single-branch https://github.com/DreamVu/Obstacle-Detection.git
       cd Obstacle-Detection
       git lfs pull
       
