@@ -5,7 +5,7 @@ Please follow the instructions given below on any of the Nvidia Jetson embedded 
 
 ## Step 1. Clone the repository 
 -     sudo apt-get install git-lfs
-      git clone https://github.com/DreamVu/SLAM.git
+      git clone -b PAL-Mini --single-branche https://github.com/DreamVu/SLAM.git
       cd SLAM
       git lfs pull
       
