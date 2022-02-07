@@ -5,17 +5,14 @@ Please follow the instructions given below on any of the Nvidia Jetson embedded 
 
 ## Step 1. Clone the repository 
 -     sudo apt-get install git-lfs
-      git clone -b PAL --single-branch https://github.com/DreamVu/Obstacle-Detection.git
-      cd Obstacle-Detection
+      git clone -b PAL --single-branch https://github.com/DreamVu/SLAM.git
+      cd SLAM
       git lfs pull
       
 ## Step 2. Installing Dependencies 
 Confirm the following dependencies. These are must have to proceed further
 
 - ### Jetpack 4.4.1
-- ### Install Git-lfs before cloning this repo. 
--     sudo apt-get install git-lfs
-
 
 - ### CUDA enabled OpenCV 4.4.0 and OpenCV Contrib 4.4.0 libraries. 
   Follow these steps to install the required OpenCV dependencies. 
