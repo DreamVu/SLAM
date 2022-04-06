@@ -14,7 +14,13 @@ chmod +x ../Explorer/Explorer
 
 ./setup_camera_data.sh 
 
-cd python_data
+cd data_installer
+
+chmod +x run ./*.sh
+
+./validate.sh
+
+cd ../python_data
 
 chmod +x setup_python_lib.sh
 ./setup_python_lib.sh
